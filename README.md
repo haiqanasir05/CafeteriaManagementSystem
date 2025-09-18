@@ -1,5 +1,5 @@
 # Cafe Management System
-
+![Image](Menu.png)
 
 ## Overview
 
