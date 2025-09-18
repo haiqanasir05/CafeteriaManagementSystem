@@ -153,33 +153,33 @@ private:
         
         // welcome label
         QLabel* welcomeLabel = new QLabel("Welcome to S&H Kitchen!", this);
-        welcomeLabel->setStyleSheet("font-size: 40px; font-family: 'American Typewriter'; font-weight: bold; color: black;");
+        welcomeLabel->setStyleSheet("font-size: 40px; font-family: 'American Typewriter'; font-weight: bold; color: black; margin-top: 50px;");
         welcomeLabel->setAlignment(Qt::AlignCenter);
         layout->addWidget(welcomeLabel);
 
         // Creating buttons
         QPushButton* button1 = new QPushButton("View Menu", this);
-        button1->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px;");
+        button1->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px; margin-left: 400px; margin-right: 380px;");
         layout->addWidget(button1);
 
         QPushButton* button2 = new QPushButton("Place Order", this);
-        button2->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px;");
+        button2->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px; margin-left: 400px; margin-right: 380px;");
         layout->addWidget(button2);
 
         QPushButton* button3 = new QPushButton("Modify Order", this);
-        button3->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px;");
+        button3->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px; margin-left: 400px; margin-right: 380px;");
         layout->addWidget(button3);
 
         QPushButton* button4 = new QPushButton("View Cart", this);
-        button4->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px;");
+        button4->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px; margin-left: 400px; margin-right: 380px;");
         layout->addWidget(button4);
 
         QPushButton* button5 = new QPushButton("Confirm Order", this);
-        button5->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px;");
+        button5->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px; margin-left: 400px; margin-right: 380px;");
         layout->addWidget(button5);
 
         QPushButton* button6 = new QPushButton("Exit", this);
-        button6->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px;");
+        button6->setStyleSheet("font-size: 16px; font-family: 'American Typewriter'; color: black; background-color: white; border-radius: 10px; padding: 5px; margin-left: 400px; margin-right: 380px; margin-bottom: 50px;");
         layout->addWidget(button6);
 
         // Connecting buttons to the slots
@@ -639,7 +639,7 @@ int main(int argc, char* argv[])
     MyWindow window;
     window.setGeometry(100, 100, 1170, 584);
     QPalette palette;
-    QPixmap background("/Users/sarasafdar/Downloads/hello.jpeg");
+    QPixmap background("./picture.jpeg");
     palette.setBrush(window.backgroundRole(), QBrush(background.scaled(window.size(), Qt::IgnoreAspectRatio, Qt::SmoothTransformation)));
     window.setPalette(palette);
     window.setAutoFillBackground(true);
