@@ -1,0 +1,17 @@
+Smash Burger 1001 1299 20
+Moroccan Chicken 1002 1590 20
+Margherita Pizza 1003 1050 20
+Chicken Lasagne 1004 999 20
+Fettuccini Pasta 1005 1100 20
+Blueberry Pancakes 1006 495 20
+Chocolate Waffles 1007 655 20
+French Toast 1008 450.4 20
+Hash browns 1009 400 20
+Smoothie bowl 1010 699 20
+Molten Cake 1011 599 20
+Banana pie 1012 545.6 20
+Cheese cake 1013 744.6 20
+Mint brownie 1014 534.4 20
+Coconut water 1015 445.6 20
+Iced tea 1016 234.4 20
+Mint Margarita 1018 240.4 20
